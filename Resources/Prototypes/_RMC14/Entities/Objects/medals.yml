@@ -491,4 +491,24 @@
   name: executive specialist name badge
   description: An engraved gold-and-black badge, containing the wearer's name, rank, and department. The highest rank most executives can reach within their lifetimes, it signifies ones influence, skill, and importance to the Weston-Yamada Corporation.
 
+- type: entity
+  parent: RMCMedalBase
+  id: RMCMedalRubyNametag
+  name: ruby and black name badge
+  description: A very prestigious ruby-black name badge, handed out to those deemed worthy by the chief executives.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Medals/ruby_nametag.rsi
+    state: icon
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Medals/ruby_nametag.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCMedalRubyNametag
+  id: RMCMedalRubyNametagService
+  name: executive specialist ruby name badge
+  description: An engraved ruby-and-black badge, containing the wearer's name, rank, and department. The highest rank most executives can reach within their lifetimes, it signifies ones influence, skill, and importance to the Weston-Yamada Corporation.
+
 
